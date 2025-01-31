@@ -1,0 +1,74 @@
+.ChatingRoom-outer{
+    border : 2px solid grey;
+    border-radius: 20px;
+    margin: 5vh 20vw;
+    background-color: rgb(233, 202, 180);
+    overflow: hidden;
+}
+.ChatingRoom-header{
+    text-align: center;
+    padding: 20px;
+}
+.ChatingRoom-line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ChatingRoom-name{
+    min-width: 7vw;
+    overflow: hidden;
+    color: blue;
+    font-weight: bold;
+
+}
+.ChatingRoom-line div{
+    margin: 1vh 1vw;
+}
+.ChatingRoom-input-outer{
+    background-color: antiquewhite;
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    flex-grow: 3 1;
+}
+.ChatingRoom-input-outer form{
+    margin: 20px 10px;
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+.ChatingRoom-input-outer form input{
+    font-size: larger;
+}
+.ChatingRoom-cont {
+    background-color: white;
+    min-height: 100px;;
+}
+#chat-input {
+    width: 80%;
+    padding: 5px;
+    border-radius: 20px;
+}
+#chat-submit {
+    background-color:rgb(233, 202, 180);
+    padding: 5px;
+    border-radius: 20px;
+    height: 30px;
+    margin: 0 5px;
+}
+#Chat-info {
+    display: flex;
+}
+#chat-time-cont {
+    color: grey;
+    font-size: 10px;
+    display: none;
+}
+.ChatingRoom-line:hover #chat-time-cont{
+    display: block;
+}
+#start-chat {
+    text-align: center;
+    padding: 40px;
+}

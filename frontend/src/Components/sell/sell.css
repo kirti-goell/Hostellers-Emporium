@@ -1,0 +1,118 @@
+#sell-outer{
+    width: 80%;
+    height: 500px;
+    border: solid 2px red;
+    margin-left: 10% ;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#sell-heading{
+    color: red;
+    text-align: center;
+}
+#sell-inner{
+    background-color:#b70a0a;
+    margin: 3% 3% 3% 3%;
+    height: 400px;
+    width: 94%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.form-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sell-label {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 15px;
+}
+.sell-input input {
+    border-radius: 10px;
+    padding: 4px;
+}
+.sell-input input,select{
+    display: block;
+    width: 100%;
+    height: 30px;
+    border: none;
+    margin-top:7px ;
+    font-size: larger;
+}
+.sell-input ::placeholder , #placeholder{
+    color: rgb(151, 149, 149);
+}
+#sell-agreement{
+    text-align: center;
+    color: white;
+    height: 20px;
+    margin-bottom: 0;
+}
+#sell-box{
+    color: white;
+    width: 40%;
+    font-size: smaller;
+    margin-left: 31%;
+    margin-top: 1%;
+}
+#sell-post-button{
+    width: 30%;
+    height: 40px;
+    margin: 20px 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: white(131, 186, 49);
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 30vw;
+}
+#image-input-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#image-label {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    width: 100%;
+}
+#image-input-inner-cont {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+#image-label img {
+    width: 80px;
+    background-color: white;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+#image-input {
+    display: none;
+}
+#image-upload {
+    margin: auto;
+    display: block;
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.term-condition{
+    /* border: 2px solid white; */
+    color: white;
+    margin: 1vh 1vw;
+}
+.term-condition h2{
+    text-align: center;
+    margin-bottom: 1vh;
+}

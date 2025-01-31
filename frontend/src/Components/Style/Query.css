@@ -1,0 +1,41 @@
+.Query-outerBox{
+    /* border: solid 2px grey; */
+    /* margin: 10vh auto ; */
+    /* width: 50vw; */
+    /* min-height: 50vh; */
+    /* font-size: larger; */
+}
+.Query-outerBox form{
+    /* width: 40vw; */
+    /* min-height: 36vh; */
+    background-color: rgba(211, 24, 24, 0.5);
+    /* margin: 5vh auto; */
+    padding: 2vh 2vw;
+    height: 56vh;
+    border-radius: 20px;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Query-outerBox form h2 {
+    text-align: center;
+}
+.query-button button{
+    /* text-align: center; */
+    background-color :grey;
+}
+.query-button button:hover{
+    background-color: lightgray;
+}
+.query-button button{
+    padding: 1vh 1vw;
+    border-radius: 2px;
+}
+.chatbot-bottom{
+    display: flex;
+    justify-content: space-around;
+}
+.chatbot-bottom input{
+    width: 100%;
+}

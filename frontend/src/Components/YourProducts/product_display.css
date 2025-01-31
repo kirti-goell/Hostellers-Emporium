@@ -1,0 +1,93 @@
+.product_display2{
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-around; */
+}
+.product-item2{
+  width: 25vw;
+  margin: 1.4vw;
+  
+  background-color: white;
+  border: 2px solid #ff0000; /* Red border */
+  border-radius: 8px;
+  padding: 15px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* width: calc(33% - 20px); Adjust width for responsiveness */
+  box-sizing: border-box;
+}
+.update-inner-cont form input{
+  padding: 2px ;
+  margin:  5px;
+}
+.update-inner-cont form button{
+  display: block;
+}
+.product_display-box{
+  border : solid 2px grey;
+  padding: 5px;
+}
+.product_display-box h5{
+  text-align: center;
+  /* color: red; */
+  font-size: larger;
+}
+.Delete-product{
+  /* margin: 0 10vw; */
+  padding: 1vh 1vw;
+  border-radius: 5px;
+}
+.Delete-product:hover{
+  background-color: grey;
+}
+.hidden{
+  display:none;
+}
+.Progress-button{
+  margin: 2vh 2vw 1vh;
+  padding: 1vh 1vw;
+  background-color: grey;
+}
+.Progress-button:hover{
+  background-color: lightgray;
+}
+.product_display-box:hover .hidden,
+.hidden:hover {
+  display: block;
+}
+.update-outer-cont {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.update-inner-cont {
+  background-color: rgb(226, 224, 224);
+  padding: 20px;
+  width: 32rem;
+  border: 2px solid red;
+  border-radius: 5px 10px;
+}
+.update-inner-cont h2{
+  text-align: center;
+}
+.product-display-btn-flex{
+  display: flex;
+  justify-content: space-around;
+}
+.product-display-btn-flex button{
+  padding:0.75rem 1.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.product-display-btn-flex button:hover{
+  background-color: lightgray;
+}
+.update-inner-cont form input{
+  margin : 1rem 0 ;
+}
